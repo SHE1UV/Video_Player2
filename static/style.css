@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,100&family=Roboto&display=swap');
+
+html, body  {
+  width: 100%;
+  height: 100%;
+}
+
+.player {
+  width: 800px;
+  height: 600px;
+  box-shadow: 0px 0px 20px black;
+  display: flex;
+  flex-direction: column;
+}
+
+.display {
+  flex: 1 1 100%;
+}
+
+.buttons-area {
+ background: black;
+ flex: 1 0 auto;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ padding: 0px 2px 0px 2px;
+ align-items: center;
+}
+
+.player-button {
+  width: 37px;
+  height: 42px;
+  border-style: none;
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+  font-size: 20px;
+}
+
+.left-buttons {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+
+.right-buttons {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+
+.progressbar {
+  display: flex;
+  flex: 1 1 100%;
+  align-items: center;
+  margin-left: 2px;
+  justify-content: space-between;
+}
+
+.progress {
+    display: flex;
+    height: 6px;
+    flex: 1 1 100%;
+    background-color: black;
+    margin-right: 4px;
+}
+
+.slider {
+    height: 5px;
+    background-color: #f8104d;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.dot  {
+  height: 8px;
+  width: 8px;
+  background-color: #f8104d;
+  border-radius: 50%;
+  display: inline-block;
+  border: 3px solid white;
+  margin-left: -8px;
+  margin-top: -5px;
+  opacity: 0;
+  transition-duration: 1000ms
+}
+
+.progressbar:hover .dot {
+ opacity: 1;
+}
+
+.timer {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
