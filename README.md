@@ -7,7 +7,7 @@
 Построен на базе библиотеки [Playable](https://wix.github.io/playable/).
 
 ## Примеры
-- Демо [плеера](https://she1uv.github.io/Video-Player/)
+- Демо [плеера](https://she1uv.github.io/Video_Player2/)
 - Страница с минимальными настройками — [index.html](./index.html)
 
 ## Как подключить
